@@ -79,6 +79,75 @@
             -moz-transition: ease-out 0.40s;
             -webkit-transition: ease-out 0.40s;
         }
+        ul.ch {
+            width: 250px;
+            background: black;
+            min-height: 100px;
+            display: none;
+            position: absolute;
+        }
+        ul.ch li {
+            list-style: none;
+        }
+        ul.ch li a {
+            color: whitesmoke;
+            text-decoration: none;
+            display: block;
+            border-bottom: 1px solid whitesmoke;
+            line-height: 40px;
+            text-indent: 10px;
+        }
+        ul.ch li a:hover {
+            background: orange;
+            color: red;
+            transition: ease-in 0.40s;
+            -moz-transition: ease-in 0.40s;
+            -webkit-transition: ease-in 0.40s;
+
+
+        }
+        ul.bot > li:hover ul.ch {
+            display: block;
+            opacity: 1;
+            transition: ease-out 0.40s;
+            -moz-transition: ease-out 0.40s;
+            -webkit-transition: ease-out 0.40s;
+        }
+        ul.fb {
+            width: 250px;
+            background: black;
+            min-height: 100px;
+            display: none;
+            position: absolute;
+        }
+        ul.fb li {
+            list-style: none;
+        }
+        ul.fb li a {
+            color: whitesmoke;
+            text-decoration: none;
+            display: block;
+            border-bottom: 1px solid whitesmoke;
+            line-height: 40px;
+            text-indent: 10px;
+        }
+        ul.fb li a:hover {
+            background: orange;
+            color: red;
+            transition: ease-in 0.40s;
+            -moz-transition: ease-in 0.40s;
+            -webkit-transition: ease-in 0.40s;
+
+
+        }
+        ul.bot > li:hover ul.fb {
+            display: block;
+            opacity: 1;
+            transition: ease-out 0.40s;
+            -moz-transition: ease-out 0.40s;
+            -webkit-transition: ease-out 0.40s;
+        }
+       
 
 
 
@@ -91,20 +160,39 @@
 <div id="Menu">
     <ul class="bot">
         <li><a href="">HOME<a/></li>
-        <li><a href="">Cách chơi<a/></li>
+        <li><a href="">Cách chơi<a/>
+            <ul class="ch">
+                
+                <li><a href="">Cờ tướng</a></li>
+                
+                <li><a href="">Cờ Vua</a></li>
+                <li> <a href="https://vi.wikipedia.org/wiki/C%E1%BB%9D_t%C6%B0%E1%BB%9Bng">Thông Tin Về Cờ Tướng(by WiKi)</a> </li>
+                <li> <a href="https://vi.wikipedia.org/w/index.php?title=C%E1%BB%9D_vua&rdfrom=C%E1%BB%9D_Vua">Thông Tin Về Cờ Vua(by WiKi)</a> </li>
+                
+                
+            </ul>
+        </li>
+           
+                
+                
         
-        <li><a href="">Tài Liệu<a/>
+        <li><a href="">Top Game<a/>
         
             <ul class="mou">
                 
-                <li><a href="">Tài Liệu 1</a></li>
-                <li><a href="">Tài Liệu 2</a></li>
-                <li><a href="">Tài Liệu 3</a></li>
-                <li><a href="">Tài Liệu 4</a></li>
-                <li><a href="">Tài Liệu 5</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.freeman.chess">Cờ Tướng</a></li>
+                <li><a href="https://play.google.com/store/apps/details?id=com.jetstartgames.chess">Cờ Vua</a></li>
             </ul>
         </li>
-        <li><a href="">Liên Hệ<a/></li>
+        <li><a href="">Liên Hệ<a/>
+            <ul class="fb">
+                
+                <li><a href="https://www.facebook.com/profile.php?id=100020625430658">FaceBook</a></li>
+                <li><a href="">FanPape:</a></li>
+                <li><a href="">Email:russhervn@gmail.com</a></li>
+                
+            </ul>
+        </li>
 
        
     </ul>
