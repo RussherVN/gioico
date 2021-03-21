@@ -5,153 +5,155 @@
     <title>Wed gioi co</title>
     <style>
         *{
-            margin: 0px;
-            padding: 0px;
+    margin: 0px;
+    padding: 0px;
 
-        }
-        body {
-            font-family: tahoma;
-            font-size: 16px;
-        }
-        #Menu {
-            width: 650px;
-            height: 35px;
-            background: black;
-            margin: 50px auto;
-        }
+}
+body {
+    font-family: tahoma;
+    font-size: 16px;
+}
+#Menu {
+    width: 650px;
+    height: 35px;
+    background: black;
+    margin: 50px auto;
+}
 
-        ul.bot > li {
-            list-style: none;
-            float: left;
-            position: relative;
-
-
-        }
-
-        ul.bot > li > a {
-            text-decoration: none;
-            color: whitesmoke;
-            padding: 0px 15px 0px 15px;
-            line-height: 40px;
-            display: block;
-
-        }
-        ul.bot > li > a:hover {
-            background: orange;
-            color: red;
-            transition: ease-in 0.40s;
-            -moz-transition: ease-in 0.40s;
-            -webkit-transition: ease-in 0.40s;
-
-        }
-
-        ul.mou {
-            width: 250px;
-            background: black;
-            min-height: 100px;
-            display: none;
-            position: absolute;
-        }
-        ul.mou li {
-            list-style: none;
-        }
-        ul.mou li a {
-            color: whitesmoke;
-            text-decoration: none;
-            display: block;
-            border-bottom: 1px solid whitesmoke;
-            line-height: 40px;
-            text-indent: 10px;
-        }
-        ul.mou li a:hover {
-            background: orange;
-            color: red;
-            transition: ease-in 0.40s;
-            -moz-transition: ease-in 0.40s;
-            -webkit-transition: ease-in 0.40s;
+ul.bot > li {
+    list-style: none;
+    float: left;
+    position: relative;
 
 
-        }
-        ul.bot > li:hover ul.mou {
-            display: block;
-            opacity: 1;
-            transition: ease-out 0.40s;
-            -moz-transition: ease-out 0.40s;
-            -webkit-transition: ease-out 0.40s;
-        }
-        ul.ch {
-            width: 250px;
-            background: black;
-            min-height: 100px;
-            display: none;
-            position: absolute;
-        }
-        ul.ch li {
-            list-style: none;
-        }
-        ul.ch li a {
-            color: whitesmoke;
-            text-decoration: none;
-            display: block;
-            border-bottom: 1px solid whitesmoke;
-            line-height: 40px;
-            text-indent: 10px;
-        }
-        ul.ch li a:hover {
-            background: orange;
-            color: red;
-            transition: ease-in 0.40s;
-            -moz-transition: ease-in 0.40s;
-            -webkit-transition: ease-in 0.40s;
+}
+
+ul.bot > li > a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 0px 15px 0px 15px;
+    line-height: 40px;
+    display: block;
+
+}
+ul.bot > li > a:hover {
+    background: orange;
+    color: red;
+    transition: ease-in 0.40s;
+    -moz-transition: ease-in 0.40s;
+    -webkit-transition: ease-in 0.40s;
+
+}
+
+ul.mou {
+    width: 250px;
+    background: black;
+    min-height: 100px;
+    display: none;
+    position: absolute;
+}
+ul.mou li {
+    list-style: none;
+}
+ul.mou li a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid whitesmoke;
+    line-height: 40px;
+    text-indent: 10px;
+}
+ul.mou li a:hover {
+    background: orange;
+    color: red;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
 
 
-        }
-        ul.bot > li:hover ul.ch {
-            display: block;
-            opacity: 1;
-            transition: ease-out 0.40s;
-            -moz-transition: ease-out 0.40s;
-            -webkit-transition: ease-out 0.40s;
-        }
-        ul.fb {
-            width: 250px;
-            background: black;
-            min-height: 100px;
-            display: none;
-            position: absolute;
-        }
-        ul.fb li {
-            list-style: none;
-        }
-        ul.fb li a {
-            color: whitesmoke;
-            text-decoration: none;
-            display: block;
-            border-bottom: 1px solid whitesmoke;
-            line-height: 40px;
-            text-indent: 10px;
-        }
-        ul.fb li a:hover {
-            background: orange;
-            color: red;
-            transition: ease-in 0.40s;
-            -moz-transition: ease-in 0.40s;
-            -webkit-transition: ease-in 0.40s;
+}
+ul.bot > li:hover ul.mou {
+    display: block;
+    opacity: 1;
+    transition: ease-out 0.60s;
+    -moz-transition: ease-out 0.60s;
+    -webkit-transition: ease-out 0.60s;
+}
+ul.ch {
+    width: 250px;
+    background: black;
+    min-height: 100px;
+    display: none;
+    position: absolute;
+}
+ul.ch li {
+    list-style: none;
+}
+ul.ch li a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid whitesmoke;
+    line-height: 40px;
+    text-indent: 10px;
+}
+ul.ch li a:hover {
+    background: orange;
+    color: red;
+    transition: ease-in 0.40s;
+    -moz-transition: ease-in 0.40s;
+    -webkit-transition: ease-in 0.40s;
 
 
-        }
-        ul.bot > li:hover ul.fb {
-            display: block;
-            opacity: 1;
-            transition: ease-out 0.40s;
-            -moz-transition: ease-out 0.40s;
-            -webkit-transition: ease-out 0.40s;
-        }
+}
+ul.bot > li:hover ul.ch {
+    display: block;
+    opacity: 1;
+    transition: ease-out 0.60s;
+    -moz-transition: ease-out 0.60s;
+    -webkit-transition: ease-out 0.60s;
+}
+ul.fb {
+    width: 250px;
+    background: black;
+    min-height: 100px;
+    display: none;
+    position: absolute;
+}
+ul.fb li {
+    list-style: none;
+}
+ul.fb li a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid whitesmoke;
+    line-height: 40px;
+    text-indent: 10px;
+}
+ul.fb li a:hover {
+    background: orange;
+    color: red;
+    transition: ease-in 0.60s;
+    -moz-transition: ease-in 0.60s;
+    -webkit-transition: ease-in 0.60s;
+
+
+}
+ul.bot > li:hover ul.fb {
+    display: block;
+    opacity: 1;
+    transition: ease-out 0.60s;
+    -moz-transition: ease-out 0.60s;
+    -webkit-transition: ease-out 0.60s;
+}
+    </style>
+   
        
 
 
 
-    </style>
+    
    
 </head>
 <body>
